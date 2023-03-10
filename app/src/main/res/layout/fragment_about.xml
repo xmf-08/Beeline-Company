@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#DAD9D9"
+    android:orientation="vertical"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zo'r 7"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="•O‘zbekiston bo‘yicha cheksiz* daqiqa;
+•Barcha yo‘nalishlarga 6 ming MB;
+•O‘zbekiston bo‘yicha 5 ming SMSga ega bo‘lishingiz mumkin.
+
+Tarifga o‘tish uchun hisobda kamida 35 ming 250 so‘m bo‘lishi kerak.
+
+Tarifga ulanish uchun *110*60# USSD so‘rovini tering. "
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+</LinearLayout>
